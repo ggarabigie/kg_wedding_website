@@ -17,17 +17,33 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-.navbar, .welcome-callout{
-  //Gradient provided by @_ighosh @ uiGradients.com
-  background: #606c88; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #606c88 , #3f4c6b); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #606c88 , #3f4c6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//Background color
+body {
+  background-color:  #eeeef7;
 }
 
+//Navbar background color
+.navbar {
+  background-color:  #eeeef7;
+}
+
+//Getting rid of the border between navbar and body
 .navbar {
   border:none;
 }
 
+//Navbar list color
+.navbar-default .navbar-nav > li > a {
+  color: #132020;
+}
+
+//Navbar list hover color
+.navbar-default .navbar-nav > li > a:hover {
+  color: #132020;
+  opacity: 0.75;
+}
+
+// Centers navbar
 @media (min-width: 768px) {
   .navbar .navbar-nav {
       display: inline-block;
@@ -41,12 +57,16 @@
 }
 
 .welcome-callout{
-  color: white;
+  color: #132020;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
-h1, h2, h3 {
+h1 {
   font-family: 'Alegreya', sans-serif;
+}
+
+h2, h3, title, body {
+  font-family: 'Oxygen', sans-serif;
 }
