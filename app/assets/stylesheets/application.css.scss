@@ -17,8 +17,8 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-// Background color
-body, .navbar {
+// Navbar background color
+.navbar {
   background-color:  #eeeef7;
 }
 
@@ -73,17 +73,25 @@ body, .navbar {
 }
 
 // Top of the page styles
-.welcome-callout, .ceremony_reception-callout,
-.story-callout, .registries-callout{
+.welcome-callout{
   color: #132020;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
+.ceremony_reception-callout,
+.story-callout, .registries-callout {
+  background-color: white;
+  color: #132020;
+  letter-spacing: 1px;
+}
+
 // Welcome page names style
 .our-names {
-  letter-spacing: 2px;
+  font-family: 'Alegreya';
+  font-size: 70px;
+  letter-spacing: 1px;
 }
 
 // Typography styles
