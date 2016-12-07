@@ -38,7 +38,7 @@ body, .navbar {
   }
 }
 
-// Mobile navbar button bar color
+// Mobile navbar button bar colors
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #132020;
 }
@@ -46,10 +46,17 @@ body, .navbar {
 // Mobile navbar border thickness and border color
 .navbar-default .navbar-toggle {
   border: 2px solid;
-  &:hover, &:focus{
+  &:hover, &:focus {
     background-color: #dcdcef;
     opacity: 0.75;
   }
+}
+
+// Mobile navbar toggle: remove border, text aligned to right
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: 0px;
+  text-align: center;
 }
 
 // Centers navbar links
