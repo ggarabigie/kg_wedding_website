@@ -24,10 +24,16 @@
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/">WELCOME</a></li>
-            <li><a href="/">CEREMONY / RECEPTION</a></li>
-            <li><a href="/story">OUR STORY</a></li>
-            <li><a href="/">REGISTRIES</a></li>
+            <!-- Ruby way of creating links -->
+            <li><%= link_to "WELCOME", "/" %></li>
+            <li><%= link_to "CEREMONY / RECEPTION", "/ceremony_reception" %></li>
+            <li><%= link_to "OUR STORY", "/story" %></li>
+            <li><%= link_to "REGISTRIES", "/registries" %></li>
+            <!-- HTML way of creating links -->
+            <!-- <li><a href="/">WELCOME</a></li> -->
+            <!-- <li><a href="/">CEREMONY / RECEPTION</a></li> -->
+            <!-- <li><a href="/story">OUR STORY</a></li> -->
+            <!-- <li><a href="/">REGISTRIES</a></li> -->
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
