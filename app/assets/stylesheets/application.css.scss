@@ -17,30 +17,23 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-//Background color
-body {
+// Background color
+body, .navbar {
   background-color:  #eeeef7;
 }
 
-//Navbar background color
-.navbar {
-  background-color:  #eeeef7;
-}
-
-//Getting rid of the border between navbar and body
+// Nav styles
 .navbar {
   border:none;
 }
 
-//Navbar list color
+// Navbar list and hover color
 .navbar-default .navbar-nav > li > a {
   color: #132020;
-}
-
-//Navbar list hover color
-.navbar-default .navbar-nav > li > a:hover {
-  color: #132020;
-  opacity: 0.75;
+  &:hover {
+    color: #132020;
+    opacity: 0.75;
+  }
 }
 
 // Centers navbar
@@ -56,13 +49,15 @@ body {
   }
 }
 
-.welcome-callout{
+// Top of the page styles
+.welcome-callout, .story-callout{
   color: #132020;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
+// Typography styles
 h1 {
   font-family: 'Alegreya', sans-serif;
 }
