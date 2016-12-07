@@ -29,7 +29,9 @@ body, .navbar {
 
 // Navbar list and hover color
 .navbar-default .navbar-nav > li > a {
+  font-family: 'Oxygen', sans-serif;
   color: #132020;
+  letter-spacing: 2px;
   &:hover {
     color: #132020;
     opacity: 0.75;
@@ -56,6 +58,10 @@ body, .navbar {
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.our-names {
+  letter-spacing: 2px;
 }
 
 // Typography styles
